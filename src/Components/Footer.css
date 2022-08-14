@@ -1,0 +1,40 @@
+footer {
+    background-color: #444444;
+    color: #EDEDED;
+    padding: 15px;
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    bottom: 0px;
+  }
+  
+  .social {
+    width: 140px;
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .text--footer {
+    letter-spacing: 1px;
+    font-weight: light;
+    font-size: 13px;
+    text-align: center;
+  }
+  
+  .icons {
+    font-size: 25px;
+    color: #EDEDED;
+    transition: 0.7s;
+  }  
+  .icons:hover{
+    color: #171717;
+  }
+
+  @media screen and (max-width: 600px) {
+    .icons{
+      font-size: 20px ;
+    }
+  }

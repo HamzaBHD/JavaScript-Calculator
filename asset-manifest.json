@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/JavaScript-Calculator/static/css/main.a2360355.css",
+    "main.js": "/JavaScript-Calculator/static/js/main.8125ce47.js",
+    "static/media/bootstrap-icons.woff?": "/JavaScript-Calculator/static/media/bootstrap-icons.e559bf06bc84fd9525e6.woff",
+    "static/media/bootstrap-icons.woff2?": "/JavaScript-Calculator/static/media/bootstrap-icons.ea98e12d2d58747f9fc5.woff2",
+    "static/media/digital.ttf": "/JavaScript-Calculator/static/media/digital.93911ab167c943140756.ttf",
+    "index.html": "/JavaScript-Calculator/index.html",
+    "main.a2360355.css.map": "/JavaScript-Calculator/static/css/main.a2360355.css.map",
+    "main.8125ce47.js.map": "/JavaScript-Calculator/static/js/main.8125ce47.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a2360355.css",
+    "static/js/main.8125ce47.js"
+  ]
+}

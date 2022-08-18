@@ -3,7 +3,6 @@ import { useState } from 'react';
 import 'bootstrap/dist/css/bootstrap.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import "bootstrap-icons/font/bootstrap-icons.css";
-import Navbar from './Components/Navbar';
 import Display from './Components/Display';
 import Calculator from './Components/Calculator'
 import Footer from './Components/Footer';
@@ -52,7 +51,6 @@ function App() {
 
   return (
     <div className='main'>
-        <Navbar />
         <div className='main--container'>
           <div className='display'>
             <Display 
@@ -66,8 +64,8 @@ function App() {
               handleDelete={handleDelete}
             />
           </div>
-        </div>
         <Footer />
+        </div>
     </div>
   );
 }

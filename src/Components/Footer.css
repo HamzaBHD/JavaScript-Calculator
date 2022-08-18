@@ -1,18 +1,14 @@
-footer {
-    background-color: #444444;
-    color: #EDEDED;
-    padding: 15px;
-    width: 100%;
-    height: 60px;
+.footer {
+    color: #171717;
+    width: 300px;
+    height: 30px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    position: fixed;
-    bottom: 0px;
   }
   
   .social {
-    width: 140px;
+    width: 100px;
     display: flex;
     justify-content: space-around;
   }
@@ -20,21 +16,14 @@ footer {
   .text--footer {
     letter-spacing: 1px;
     font-weight: light;
-    font-size: 13px;
-    text-align: center;
+    font-size: 12px;
   }
   
   .icons {
-    font-size: 25px;
-    color: #EDEDED;
+    font-size: 15px;
+    color: #171717;
     transition: 0.7s;
   }  
   .icons:hover{
-    color: #171717;
-  }
-
-  @media screen and (max-width: 600px) {
-    .icons{
-      font-size: 20px ;
-    }
+    color: #DA0037;
   }

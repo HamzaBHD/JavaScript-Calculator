@@ -5,7 +5,7 @@
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(5, 1fr);
     grid-template-areas: 
-    "reset del divide multiple"
+    "reset del divide multiply"
     "num7 num8 num9 subtract"
     "num4 num5 num6 add"
     "num1 num2 num3 equal"
@@ -36,12 +36,12 @@ button:hover{
 }
 
 
-#del {
+#delete {
     background-color: #a06711;
     color: #EDEDED;
 }
 
-#reset {
+#clear {
     grid-area: reset;
     background-color: #DA0037;
     color: #EDEDED;
@@ -53,8 +53,8 @@ button:hover{
     color: #EDEDED;
     font-size: 25px;
 }
-#multiple{
-    grid-area: multiple;
+#multiply{
+    grid-area: multiply;
     background-color: #444444;
     color: #EDEDED;
     font-size: larger;
@@ -71,21 +71,21 @@ button:hover{
     color: #EDEDED;
     font-size: larger;
 }
-#equal {
+#equals {
     grid-area: equal;
     color: #EDEDED;
     background-color: #171717;
     font-size: larger;
 }
-#equal:hover{
+#equals:hover{
     color: #8f8f8f;
 }
-#num0 {
+#zero {
     grid-area: num0;
 }
 
 #reset:hover,
-#del:hover,
+#delete:hover,
 #divide:hover,
 #multiple:hover,
 #subtract:hover,

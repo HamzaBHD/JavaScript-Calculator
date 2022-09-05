@@ -4,12 +4,12 @@ export default function Display(props) {
     return (
         <div className='calculator--display'>
             {props.output ? 
-            <span className='output'>{props.output}</span> :
-            <span className='output'>0</span>
+            <span id='display' className='output'>{props.output}</span> :
+            <span id='display' className='output'>0</span>
             }
             {props.input ? 
-            <span className='input'>{props.input}</span> :
-            <span className='input'>0</span>
+            <span id='display' className='input'>{props.input}</span> :
+            <span id='display' className='input'>0</span>
             }
         </div> 
     )

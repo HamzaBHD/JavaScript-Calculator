@@ -11,18 +11,16 @@ function App() {
   const [number, setNumber] = useState('')
   const [result, setResult] = useState('')
  
-  const operators = ['*', '+', '-', '/', '.']
+  const operators = ['*', '+', '-', '/']
+  const decimal = '.'
 
   const handleNumber = (value) => {
     if(operators.includes(value) && number === '' ||
-    operators.includes(value) && operators.includes(number.slice(-1))) {
+       operators.includes(value) && operators.includes(number.slice(-1)) ||
+       number.startsWith('0')) {
       return;
-    } 
-
-    if (number.length < 21) {
-      setNumber(number + value)
     } else {
-      return;
+      setNumber(number + value)
     }
 
     if(!operators.includes(value)){
